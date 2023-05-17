@@ -1,0 +1,12 @@
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #bcfdbc;
+}
+
+.tile-image {
+  border-radius: 5px;
+}

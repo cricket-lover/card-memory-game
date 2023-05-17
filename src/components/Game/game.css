@@ -1,0 +1,52 @@
+.game {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.game-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.no-of-moves {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.moves-count {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.game-over {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.reset-btn {
+  color: var(--primary-color);
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  height: 2em;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.meter {
+  width: 24rem;
+  height: 3rem;
+}
+
+.pairs-matched {
+  text-align: left;
+}

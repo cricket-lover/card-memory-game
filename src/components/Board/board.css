@@ -1,0 +1,9 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 32rem;
+  height: 32rem;
+  aspect-ratio: 1/1;
+}
