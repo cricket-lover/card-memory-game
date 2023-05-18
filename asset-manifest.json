@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/card-memory-game/static/css/main.03af7402.css",
-    "main.js": "/card-memory-game/static/js/main.08ce6064.js",
+    "main.css": "/card-memory-game/static/css/main.9880b61a.css",
+    "main.js": "/card-memory-game/static/js/main.36a7a548.js",
     "static/js/787.c4e7f8f9.chunk.js": "/card-memory-game/static/js/787.c4e7f8f9.chunk.js",
     "static/media/sehwag.jpeg": "/card-memory-game/static/media/sehwag.2cb2050f6d268d76f90a.jpeg",
     "static/media/rohit.jpeg": "/card-memory-game/static/media/rohit.a491e4085d51e055f8eb.jpeg",
@@ -12,12 +12,12 @@
     "static/media/rahul.jpeg": "/card-memory-game/static/media/rahul.727fed6bd4addef51792.jpeg",
     "static/media/kohli.jpeg": "/card-memory-game/static/media/kohli.1e454e39c4f8c3acf1e1.jpeg",
     "index.html": "/card-memory-game/index.html",
-    "main.03af7402.css.map": "/card-memory-game/static/css/main.03af7402.css.map",
-    "main.08ce6064.js.map": "/card-memory-game/static/js/main.08ce6064.js.map",
+    "main.9880b61a.css.map": "/card-memory-game/static/css/main.9880b61a.css.map",
+    "main.36a7a548.js.map": "/card-memory-game/static/js/main.36a7a548.js.map",
     "787.c4e7f8f9.chunk.js.map": "/card-memory-game/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03af7402.css",
-    "static/js/main.08ce6064.js"
+    "static/css/main.9880b61a.css",
+    "static/js/main.36a7a548.js"
   ]
 }
