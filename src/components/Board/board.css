@@ -7,3 +7,10 @@
   height: 32rem;
   aspect-ratio: 1/1;
 }
+
+@media (max-width: 568px) {
+  .board {
+    width: auto;
+    height: auto;
+  }
+}

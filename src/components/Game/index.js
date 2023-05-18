@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Board from "../Board";
-import "./game.css";
 import { getInitialTiles } from "../../initialTiles";
+
+import "./game.css";
 
 const Game = function () {
   const [tiles, setTiles] = useState([]);
@@ -36,8 +37,21 @@ const Game = function () {
         setMatchedTiles={setMatchedTiles}
       />
       <section className="game-details">
-        <h2 className="game-over">{isGameOver && "Yo Mama! Game Over"}</h2>
-        <div className="no-of-moves">
+        <div className="game-over">{isGameOver && "Game Over"}</div>
+        <meter
+          id="no-of-matched-pairs"
+          className="meter"
+          value={meterValue}
+          min="0"
+          max="8"
+        ></meter>
+        <div className="pairs-matched">
+          <div className="no-of-matched-pairs">Pairs Matched:</div>
+          <div className="count">
+            <span className="moves-count">{meterValue}</span> / 8
+          </div>
+        </div>
+        <div className="count">
           No of Moves: <span className="moves-count">{moves}</span>
         </div>
         <button
@@ -48,19 +62,6 @@ const Game = function () {
         >
           Reset
         </button>
-        <div className="pairs-matched">
-          <meter
-            id="no-of-matched-pairs"
-            className="meter"
-            value={meterValue}
-            min="0"
-            max="8"
-          ></meter>
-          <div className="no-of-matched-pairs">Pairs Matched:</div>
-          <div className="no-of-moves">
-            <span className="moves-count">{meterValue}</span> / 8
-          </div>
-        </div>
       </section>
     </div>
   );
